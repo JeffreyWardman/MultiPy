@@ -1,5 +1,5 @@
 # MultiPy
-Runs multiple python files at the same time through Gnome Terminal.
+Runs multiple python files simultaneously through Gnome Terminal.
 
 Uses a GUI automation approach to run a python file with different arguments at the same time in multiple consoles.
 
