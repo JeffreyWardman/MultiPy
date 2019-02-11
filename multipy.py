@@ -17,7 +17,7 @@ def run_data_processes(pyfile, arguments, input_file, virtual_env):
 
     pyautogui.PAUSE = 0.1  # pause for 0.1 seconds between inputs
 
-    for input in inputs[:3]:
+    for input in inputs:
         args = ''
         for i in range(len(arguments)):
             args += ' --' + arguments[i] + ' ' + input.split()[i]
