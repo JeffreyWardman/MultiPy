@@ -2,8 +2,12 @@ import os
 import pyautogui
 
 
-def run_data_processes(pyfile, arguments, input_file, virtual_env):
+def multipy(pyfile, arguments, input_file, virtual_env):
     """Runs a keygrabber script to set up the data collection for each input in a text file.
+    
+    Inputs to arguments are written in a text file on a line-by-line basis and separated by
+    a space.
+    
     :param pyfile:      string      python file
     :param arguments:   list        input arguments
     :param virtual_env: string      virtual environment
