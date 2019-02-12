@@ -2,7 +2,7 @@ import os
 import pyautogui
 
 
-def multipy(pyfile, input_file, virtual_env):
+def multipy(pyfile, input_file, virtual_env, PAUSE=0.15):
     """Runs a keygrabber script to set up the data collection for each input in a text file.
     
     Inputs to arguments are written in a text file on a line-by-line basis and separated by
@@ -16,7 +16,7 @@ def multipy(pyfile, input_file, virtual_env):
     # open console
     os.system('gnome-terminal')
 
-    pyautogui.PAUSE = 0.1  # pause for 0.1 seconds between inputs
+    pyautogui.PAUSE = PAUSE  # pause for PAUSE seconds between inputs
 
     for args in arguments:
         pyautogui.press('enter')
