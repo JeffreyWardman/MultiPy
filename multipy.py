@@ -1,3 +1,9 @@
+"""
+Runs a python script in multiple consoles with different inputs for arguments.
+
+@author: Jeffrey Wardman
+"""
+
 import os
 import pyautogui
 
